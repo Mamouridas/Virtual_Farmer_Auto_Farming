@@ -10,6 +10,7 @@ use the code at your own risk.
 2. Non-BOT acounts acting like BOTs could be banned from Discord, so again use the code at your own risk.
 
 
+
 To be able to run the code you will need to install:
 1. pyautogui
 2. websocket
@@ -17,6 +18,7 @@ To be able to run the code you will need to install:
 4. requests
 5. pynput
 To install use the command "pip install 'name of library'"(example: pip install websocket)
+
 
 
 Before we start, enable Developer mode if you are using the Discord app (settings>advanced>Developer Mode)
@@ -35,3 +37,18 @@ You want the coordinates of the "Farm" button so the program can automatically m
 When you run the code you have to place the cursor on the "Farm" button and press the first click (make sure you are not in a verification stage when you do that), after that it will do the rest (It's important to not move the cursor while farming)
 The program will give you feedback from time to time ("Heartbeat received") so you will know it's still running
 It doesn't work if the Caps-Lock is enabled. If you want to stop it at any point just enable the Caps-Lock and wait untill it clicks the next farm, or you can just click it manually
+
+
+
+
+
+**How to use the resolutionCalculator.py**
+
+For this you will also have to install "keyboard" (the same way as before)
+
+Just run the resolutionCalculator.py, place the cursor on the field/button you want, press the "spacebar" and it will print the current coordinates of the cursor. You can do this as many times as you want. To terminate the program just press "esc"
+
+While calculating:
+1. Make sure that BOTs message is on the bottom of the text channel while calculating for the "Farm" button
+2. Calcilate the coordinates of the "Dismiss" button, while it is visible to you (you might need to play untill verification needed and answer so you can see and calculate the coordinates for the "Dismiss" button)
+3. Make sure that the cursor is on the right place-button
