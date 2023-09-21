@@ -21,13 +21,13 @@ To install use the command "pip install 'name of library'"(example: pip install 
 
 
 
-Before we start, enable Developer mode if you are using the Discord app (settings>advanced>Developer Mode)
+Before we start, enable Developer mode (settings>advanced>Developer Mode)
 
 You'll also have to change a few things in the code so it will be able to run properly for you:
 1. Change the channel ID in line 35. You should use the ID of your text channel in a string (for example: "1142540178209120376"). To get channel's ID just press right click on the name of the channel and choose the last option
 (you have to enable Developer mode first).
 2. Change the token in line 44. You have to type the token of the account you are going to use for this. To find this
-token, go to a text channel, press ctrl+shift+i click "Network" on the top bar type anything in the chat, you will see the "typing" appear under the "Name", click on it and scroll down in the list that appears next to it until you find the **Request Headers**, from there you need to copy the token next to "authorization" and paste it as string in the code.
+token(Opend Discord from browser or install better discord and enable "dev tools". You will only need to do this once so I recomend you to go with the browser) go to a text channel, press ctrl+shift+i click "Network" on the top bar type anything in the chat, you will see the "typing" appear under the "Name", click on it and scroll down in the list that appears next to it until you find the **Request Headers**, from there you need to copy the token next to "authorization" and paste it as string in the code.
 3. Change the click coordinates for your chat bar (line 83), the "Dismiss" button (line 96) and the "Farm" button (line 99) to fit your screen's resolution. Use the resolutionCalculator.py to calculate the coordinates for each one of the above.
 You want the coordinates of the chat bar so the program automatically click and type the verify code when needed
 you want the coordinates of the "Dismiss" button so you can remove the message only visible to you that confirms your verification, so it won't destroy all the other clicks
