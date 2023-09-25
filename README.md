@@ -37,7 +37,8 @@ You want the coordinates of the "Farm" button so the program can automatically m
 
 When you run the code you have to place the cursor on the "Farm" button and press the first click (make sure you are not in a verification stage when you do that), after that it will do the rest (It's important to not move the cursor while farming)
 The program will give you feedback from time to time ("Heartbeat received") so you will know it's still running. It will also give you feedback no event received for sometime and will activate an autoclicker (to prevent BOT from stoping due to "no 'Farm' button activation").
-If at some point for any reason the BOT lose connection with the Discord servers it will repeatedly try to reconnect until it does and continue farming
+If at some point for any reason the BOT lose connection with the Discord servers it will repeatedly try to reconnect until it does and continue farming.
+It's important to use a private channel, because if anyone types something in the channel you are farming it's going to mess up your calculations and prevent the BOT from farming
 It doesn't work if the Caps-Lock is enabled so if you want to stop it at any point just enable the Caps-Lock and wait untill it clicks the next farm, or you can just click it manually
 
 
